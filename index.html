@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My webpage!</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <script async src="./javascript/index.js"></script>
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <h4 id='date'></h4>
 
-    <div class="image-section">
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com.</p>
-      </div>
+<body>
 
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com.</p>
-      </div>
-    </div>
+  <h1> AidTech </h1>
 
-    <div class="image-section">
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com.</p>
-      </div>
+  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+  <button class="tablink" onclick="openPage('Search', this, 'green')" id="defaultOpen">Emergency Search</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Supply Tracking</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">Funds Allocation</button>
 
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com.</p>
-      </div>
-    </div>
-  </body>
+  <div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
+  </div>
+
+  <div id="Search" class="tabcontent">
+    <h3>Emergency Search</h3>
+    <p>Some news this fine day!</p>
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Supply Tracking</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>Funds Distribution</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+</body>
 </html>
