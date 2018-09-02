@@ -5,32 +5,76 @@ body, html {
   font-family: Arial;
 }
 
+.title {
+    display: block;
+    font-size: 6em;
+    text-align: center;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    width: 100%;
+    padding: 2px;
+    background-color: white;
+}
+
+.titlerow {
+  width: 100%
+  height: 10%;
+  background-color: #ACD1E9;
+}
+
+.row{
+  height: 90%;
+}
+
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
+  background-color: #F5FAFA;
+  color: black;
   float: left;
-  border: none;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: dotted black;
+  border-right: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
   width: 25%;
+  font-weight: bold;
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: #B7AFA3;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: black;
   display: none;
   padding: 100px 20px;
   height: 100%;
 }
 
-#Home {background-color: red;}
+#Home {background-color: #000080;}
 #Search {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
+
+.locationbox {
+  display: block;
+  padding: 15px;
+  padding: 15px;
+  width: 30%;
+  background-color: white;
+  color: black;
+  position: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 12px;
+}

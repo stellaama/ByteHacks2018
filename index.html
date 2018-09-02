@@ -7,17 +7,22 @@
 
 <body>
 
-  <h1> AidTech </h1>
+<div class="titlerow">
+  <div class="title"> <img style="height: 80px; width:80px" src='redcross.png'> AidTech </div>
+</div>
 
-  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-  <button class="tablink" onclick="openPage('Search', this, 'green')" id="defaultOpen">Emergency Search</button>
-  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Supply Tracking</button>
-  <button class="tablink" onclick="openPage('About', this, 'orange')">Funds Allocation</button>
+<div class="row">
+  <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">DISASTER LOCATION</button>
+  <button class="tablink" onclick="openPage('Search', this, 'green')">EMERGENCY SEARCH</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">SUPPLY TRACKING</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">FUNDS ALLOCATION</button>
 
-<<<<<<< HEAD
   <div id="Home" class="tabcontent">
-    <h3>Home</h3>
-    <p>Home is where the heart is..</p>
+    <button class="locationbox">
+      <h3 style="line-height: .4em"> Location: Puerto Rico </h3>
+      <h3 style="line-height: .4em"> Disaster: Hurricane Maria </h3>
+      <h3 style="line-height: .4em; color: red"> Immediate </h3>
+    </button>
   </div>
 
   <div id="Search" class="tabcontent">
@@ -32,16 +37,8 @@
 
   <div id="About" class="tabcontent">
     <h3>Funds Distribution</h3>
-    <p>Who we are and what we do.</p>
+    
   </div>
+</div>
 </body>
-=======
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com. </p>
-      </div>
-    </div>
-  </body>
->>>>>>> 11108d0285599bf72a69e12def170a1d3b5d56a1
 </html>
-
