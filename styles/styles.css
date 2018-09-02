@@ -66,11 +66,14 @@ body, html {
 }
 
 .roundedbox{
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 10px;
-    border: 2px solid white;
+    border: 3px solid white;
     padding: 10px;
     padding-top: 0px;
     height: 175px;
+    width: 80%;
     background-color: #aec6cf;
 }
 
@@ -79,6 +82,21 @@ body, html {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
+}
+
+#seemore{
+	background-color: #aec6cf;
+	border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
 }
 
 #Home {background-color: #000080;}
