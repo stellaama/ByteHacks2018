@@ -30,7 +30,29 @@ body, html {
   height: 100%;
 }
 
+.tabcontent2 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.roundedbox{
+	border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px; 
+    padding-top: 0px;
+    height: 175px; 
+}
+
+#map {
+	height: 400px; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;  
+}
+
 #Home {background-color: red;}
 #Search {background-color: green;}
-#Contact {background-color: blue;}
+#Contact {background-color: #aec6cf;}
 #About {background-color: orange;}

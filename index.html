@@ -10,11 +10,10 @@
   <h1> AidTech </h1>
 
   <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-  <button class="tablink" onclick="openPage('Search', this, 'green')" id="defaultOpen">Emergency Search</button>
-  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Supply Tracking</button>
+  <button class="tablink" onclick="openPage('Search', this, 'green')" >Emergency Search</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')" id="defaultOpen">Supply Tracking</button>
   <button class="tablink" onclick="openPage('About', this, 'orange')">Funds Allocation</button>
 
-<<<<<<< HEAD
   <div id="Home" class="tabcontent">
     <h3>Home</h3>
     <p>Home is where the heart is..</p>
@@ -26,8 +25,51 @@
   </div>
 
   <div id="Contact" class="tabcontent">
-    <h3>Supply Tracking</h3>
-    <p>Get in touch, or swing by for a cup of coffee.</p>
+    <h2>Supply Tracking</h2>
+    <div id="map"></div>
+
+    <h2>Supply Statuses</h2>
+    <hr>
+    <div class="roundedbox">
+      <h3>Supply A</h3>
+      <ul>
+        <li><b>Status:</b>Delivered</li>
+        <li><b>Current location:</b> 18.150688, -65.818912</li>
+        <li><b>Day and Time of Arrival:</b> Friday, August 31st at 9:00 am</li>
+        <li><b>Supply Contents:</b> Adult Clothing, primarily sweaters and tops</li>
+        <li><b>Weight:</b> 20 lbs</li>
+        <li><b>Other Notes:</b> </li>
+      </ul>
+    </div>
+    <div class="roundedbox">
+      <h3>Supply B</h3>
+      <ul>
+        <li><b>Status:</b> Not delivered</li>
+        <li><b>Current location:</b> 18.371456, -66.167216</li>
+        <li><b>Estimated Day and Time of Arrival:</b> Tuesday, September 4th at 4:55 pm</li>
+        <li><b>Supply Contents:</b> Adult Clothing, primarily sweaters and tops</li>
+        <li><b>Weight:</b> 20 lbs</li>
+        <li><b>Other Notes:</b> </li>
+      </ul>
+    </div>
+    <div class="roundedbox">
+      <h3>Supply C</h3>
+      <ul>
+        <li><b>Status:</b> Not delivered</li>
+        <li><b>Current location:</b> 18.371456, -66.167216</li>
+        <li><b>Estimated Day and Time of Arrival:</b> Tuesday, September 4th at 4:55 pm</li>
+        <li><b>Supply Contents:</b> Adult Clothing, primarily sweaters and tops</li>
+        <li><b>Weight:</b> 20 lbs</li>
+        <li><b>Other Notes:</b> </li>
+      </ul>
+    </div>
+
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo6Bh1VXIARxPobbaKxlYCCUdpeU_LGvw&callback=initMap">
+    </script>
   </div>
 
   <div id="About" class="tabcontent">
@@ -35,13 +77,5 @@
     <p>Who we are and what we do.</p>
   </div>
 </body>
-=======
-      <div class="section-style">
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
-        <p>A random image courtesy of unsplash.com. </p>
-      </div>
-    </div>
-  </body>
->>>>>>> 11108d0285599bf72a69e12def170a1d3b5d56a1
 </html>
 

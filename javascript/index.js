@@ -19,5 +19,34 @@ function openPage(pageName, elmnt, color) {
     elmnt.style.backgroundColor = color;
 }
 
+// Initialize and add the map for supply tracking
+ function initMap() {
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: {lat: 18.237215, lng: -66.517899}
+        });
+
+        // Create an array of alphabetical characters used to label the markers.
+        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+
+        // Add a marker clusterer to manage the markers.
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      }
+      var locations = [
+        {lat: 18.150688, lng: -65.818912},
+        {lat: 18.083827, lng: -65.873639},
+        {lat: 18.371456, lng:  -66.167216},
+      ]
+
+
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
