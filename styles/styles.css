@@ -136,3 +136,9 @@ td, th {
     padding: 2px;
     width: 10%;
 }
+
+tr.search:hover {background-color: #f5f5f5;}
+th.search, td.search {
+    border-bottom: 1px solid #ddd;
+    hover {background-color: #f5f5f5;}
+}
