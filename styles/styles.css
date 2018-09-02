@@ -58,7 +58,6 @@ body, html {
   height: 100%;
 }
 
-<<<<<<< HEAD
 .tabcontent2 {
     display: none;
     padding: 6px 12px;
@@ -69,24 +68,22 @@ body, html {
 .roundedbox{
 	border-radius: 10px;
     border: 2px solid white;
-    padding: 10px; 
+    padding: 10px;
     padding-top: 0px;
-    height: 175px; 
+    height: 175px;
+    background-color: #aec6cf;
 }
 
 #map {
-	height: 400px; 
+	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;  
+	width: 95%;
 }
 
-#Home {background-color: red;}
-=======
 #Home {background-color: #000080;}
->>>>>>> 562a1b46378c65b4d26f590edb8465aff3311906
 #Search {background-color: green;}
-#Contact {background-color: #aec6cf;}
+#Contact {background-color: white;}
 #About {background-color: orange;}
 
 .locationbox {
