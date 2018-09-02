@@ -82,9 +82,9 @@ body, html {
 }
 
 #Home {background-color: #000080;}
-#Search {background-color: green;}
+#Search {background-color: white;}
 #Contact {background-color: white;}
-#About {background-color: orange;}
+#About {background-color: white;}
 
 .locationbox {
   display: block;
@@ -100,4 +100,19 @@ body, html {
   margin-left:auto;
   margin-right:auto;
   border-radius: 12px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: none;
+    text-align: center;
+    padding: 2px;
+    width: 10%;
 }
