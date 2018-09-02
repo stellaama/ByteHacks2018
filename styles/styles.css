@@ -137,8 +137,21 @@ td, th {
     width: 10%;
 }
 
+table#personinfo{
+	width: 100%;
+	margin: 20px auto;
+	table-layout: auto;
+}
+
 tr.search:hover {background-color: #f5f5f5;}
 th.search, td.search {
-    border-bottom: 1px solid #ddd;
-    hover {background-color: #f5f5f5;}
+    border-bottom: 
+    1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+img.peopleimage {
+	height:250px;
+    width:400px;
 }
