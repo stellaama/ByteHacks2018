@@ -11,3 +11,5 @@ In order to remediate and improve the disaster relief and recovery process, we d
 How we built it
 
 The web application was built using HTML, CSS, and Javascript. The API's we used are Google Maps and Video Intelligence.
+
+For more information: https://devpost.com/software/aidtech
